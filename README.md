@@ -1,2 +1,2 @@
 # p2-lp
- Projetos de Lógica de Programação - Alura
+ Praticando Lógica de Programação com JS - Alura
