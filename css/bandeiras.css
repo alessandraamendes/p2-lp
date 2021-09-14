@@ -1,0 +1,60 @@
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+header {
+  padding: 20px 0;
+}
+
+h1 {
+  position: absolute;
+  left: 0;
+  margin-left: 20px;
+}
+
+h2 {
+  position: absolute;
+  right: 0;
+  margin-right: 20px;
+}
+
+.principal {
+  color: rgb(242, 22, 130);
+  padding: 3em 0;
+  background: #fefefe;
+  width: 940px;
+  margin: 0 auto;
+}
+
+footer {
+  text-align: center;
+  font-weight: bold;
+}
+
+p {
+  text-align: center;
+  color: rgb(242, 22, 130);
+}
+
+.content {
+  margin-top: 70px;
+  width: 100%;
+  height: 750px;
+  text-align: center;
+}
+
+.box-br {
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-image: url(/Ale-Desev/CloudGirls/logica1/imgs/back_white.jpg);
+  background-color: white;
+  min-height: 100%;
+}
+
+.cgbr-exercicios {
+  background: white;
+}
+
+canvas{
+    margin-right: 150px;
+}
