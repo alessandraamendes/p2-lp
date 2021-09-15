@@ -6,6 +6,10 @@ header {
   padding: 20px 0;
 }
 
+.logomobile-cg {
+  display: none;
+}
+
 h1 {
   position: absolute;
   left: 0;
@@ -81,7 +85,7 @@ p {
 .box {
   background-repeat: no-repeat;
   background-position: center center;
-  background-image: url(/Ale-Desev/CloudGirls/logica1/imgs/back_black.jpg);
+  background-image: url(/imgs/back_black.jpg);
   background-color: black;
   min-height: 100%;
 }
@@ -89,7 +93,7 @@ p {
 .box-br {
   background-repeat: no-repeat;
   background-position: center center;
-  background-image: url(/Ale-Desev/CloudGirls/logica1/imgs/back_white.jpg);
+  background-image: url(/imgs/back_white.jpg);
   background-color: white;
   min-height: 100%;
 }
@@ -115,8 +119,7 @@ p {
   .principal,
   .power,
   footer,
-  .box
-  .cg-exercicios {
+  .box .cg-exercicios {
     width: auto;
   }
 
@@ -127,7 +130,7 @@ p {
     text-align: center;
   }
 
-  .power img{
+  .power img {
     width: 70%;
     margin-bottom: 50px;
   }
