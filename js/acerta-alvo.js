@@ -1,7 +1,7 @@
 var tela = document.querySelector('canvas');
 var pincel = tela.getContext('2d');
 
-pincel.fillStyle = 'black';
+pincel.fillStyle = 'white';
 pincel.fillRect(0, 0, 600, 400);
 pincel.strokeRect(50, 50, 50, 50);
 
@@ -56,7 +56,7 @@ function dispara(evento) {
         && (y > yAleatorio - raio)
         && (y < yAleatorio + raio)) {
 
-        alert('Acertou!');
+        alert('Show! Você Acertou!');
 
     }
 

@@ -11,14 +11,31 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 
-<body class="cg-exercicios">
-    <div class="box">
-        <article class="content">
-            <canvas id="canvas" width="400" height="400" style="border:1px solid purple"></canvas>
-            <div class="selecionarcor">Selecione a cor e desenhe! <input type="color" value="#F01782"></div>
-        </article>
-        
-    </div>
+<body>
+    <header>
+        <div>
+            <h1><img src="imgs/logo-cg.jpg" alt="Logo Cloud Girls"></h1>
+            <h2><img src="imgs/turma.jpg" alt="Logo Turma 7"></h2>
+        </div>
+    </header>
+
+    <main>
+        <div class="box">
+            <article class="content">
+                <canvas id="canvas" width="400" height="400" style="border:1px solid purple"></canvas>
+                <div class="selecionarcor">Selecione a cor e desenhe! <input type="color" value="#F01782"></div>
+            </article>
+        </div>
+
+        <section class="principal">
+            <a href="index.html"><button>Home</button></a>
+        </section>
+
+        <div class="power">
+            <img src="imgs/girl-power.jpg">
+        </div>
+
+    </main>
 
     <footer>
         <img src="imgs/favicon.png" width="50" height="50">
@@ -26,6 +43,8 @@
     </footer>
 
     <script src="js/desenhar.js"></script>
+    
 </body>
+
 
 </html>

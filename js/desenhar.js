@@ -2,7 +2,7 @@
     var tela = document.querySelector('canvas');
     var pincel = tela.getContext('2d');
 
-    pincel.fillStyle = 'black';
+    pincel.fillStyle = 'white';
     pincel.fillRect(0, 0, 400, 400);
 
     var desenha = false;
