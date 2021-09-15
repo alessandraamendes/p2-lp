@@ -85,7 +85,7 @@ p {
 .box {
   background-repeat: no-repeat;
   background-position: center center;
-  background-image: url(/imgs/back_black.jpg);
+  background-image: url(https://alessandraamendes.github.io/p2-lp/imgs/back_black.jpg);
   background-color: black;
   min-height: 100%;
 }
@@ -93,7 +93,7 @@ p {
 .box-br {
   background-repeat: no-repeat;
   background-position: center center;
-  background-image: url(/imgs/back_white.jpg);
+  background-image: url(https://alessandraamendes.github.io/p2-lp/imgs/back_black.jpg);
   background-color: white;
   min-height: 100%;
 }
