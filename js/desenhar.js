@@ -21,13 +21,11 @@
 
     tela.onmousemove = desenhaCirculo;
 
-    // atribuindo diretamente a função anônima
     tela.onmousedown = function() {
 
         desenha = true;
     }
 
-    // atribuindo diretamente a função anônima
      tela.onmouseup = function() {
 
         desenha = false;

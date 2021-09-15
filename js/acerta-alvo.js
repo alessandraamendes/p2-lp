@@ -59,8 +59,7 @@ function dispara(evento) {
         alert('Show! Você Acertou!');
 
     }
-
-
+    
 }
 
 tela.onclick = dispara;
