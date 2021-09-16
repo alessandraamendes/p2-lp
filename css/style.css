@@ -59,7 +59,6 @@ h3 {
   text-shadow: 1px 1px 0 rgb(242, 22, 130);
 }
 
-
 .power {
   position: relative;
   text-align: right;
@@ -135,8 +134,9 @@ p {
     max-height: 200px;
   }
 
-  #canvas{
+  #canvas {
     width: 300px;
     height: 200px;
   }
+
 }

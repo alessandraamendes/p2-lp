@@ -3,17 +3,9 @@
     var pincel = tela.getContext('2d');
 
     pincel.fillStyle = 'white';
-
+    pincel.fillRect(0, 0, 400, 400);
 
     var desenha = false;
-
-    document.body.onresize = function() {
-        if (document.body.clientWidth < 480) {
-            pincel.fillRect(0, 0, 600, 400);
-        }else{
-            pincel.fillRect(0, 0, 300, 200);
-        }
-    };
 
     function desenhaCirculo(evento) {
 
